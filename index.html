@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#ffd400">
   <title>Gautam Jha | Telegram Channel</title>
-  <meta name="description" content="Join Gautam Jha's Telegram channel for market education, risk-management concepts, and market updates.">
+  <meta name="description" content="Join Gautam Jha's Telegram channel for market education, risk management concepts, and market updates.">
 
   <style>
     :root {
@@ -37,44 +37,22 @@
       text-align: center;
     }
 
-    /* Logo */
+    /* Profile photo */
     .brand-mark {
       width: 176px;
       height: 176px;
       margin: 0 auto 28px;
       border-radius: 50%;
-      display: grid;
-      place-items: center;
-      background: radial-gradient(circle at 35% 25%, #fff8c8, #ffb900 68%, #ed8700);
+      display: block;
+      object-fit: cover;
+      object-position: center 38%;
       border: 7px solid white;
       outline: 4px solid #151515;
       box-shadow: 0 8px 0 rgba(0,0,0,.12),
                   0 12px 25px rgba(0,0,0,.16);
-      position: relative;
+      background: white;
     }
 
-    .brand-mark::before {
-      content: "";
-      position: absolute;
-      inset: 9px;
-      border: 2px solid rgba(0,0,0,.55);
-      border-radius: 50%;
-    }
-
-    .monogram {
-      position: relative;
-      z-index: 1;
-      font-size: 56px;
-      font-weight: 950;
-      letter-spacing: -7px;
-      transform: skew(-7deg);
-    }
-
-    .monogram span {
-      color: var(--purple);
-    }
-
-    /* Heading */
     h1 {
       margin: 0 0 36px;
       font-size: clamp(29px, 5vw, 42px);
@@ -84,7 +62,7 @@
       text-transform: uppercase;
     }
 
-    /* Buttons */
+    /* Telegram buttons */
     .join-button,
     .bottom-button {
       display: flex;
@@ -185,7 +163,7 @@
       color: #302800;
     }
 
-    /* Mobile layout */
+    /* Mobile styling */
     @media (max-width: 420px) {
       .page {
         padding: 30px 16px 24px;
@@ -194,10 +172,6 @@
       .brand-mark {
         width: 150px;
         height: 150px;
-      }
-
-      .monogram {
-        font-size: 48px;
       }
 
       .feature {
@@ -228,15 +202,18 @@
 <body>
   <main class="page">
 
-    <!-- Gautam Jha Logo -->
-    <div class="brand-mark" aria-label="Gautam Jha logo">
-      <div class="monogram">G<span>J</span></div>
-    </div>
+    <!-- Gautam Jha profile photo -->
+    <img
+      class="brand-mark"
+      src="PASTE_YOUR_PHOTO_DATA_HERE"
+      alt="Gautam Jha profile photo"
+      width="176"
+      height="176"
+    >
 
-    <!-- Main Heading -->
     <h1>Learn With Gautam Jha</h1>
 
-    <!-- Main Telegram Button -->
+    <!-- Main Telegram button -->
     <a
       class="join-button"
       href="https://t.me/+BwbB0EAjmYc1Mzlh"
@@ -247,7 +224,7 @@
       Join Telegram Channel
     </a>
 
-    <!-- Information Cards -->
+    <!-- Information cards -->
     <section class="features" aria-label="Channel topics">
 
       <article class="feature">
@@ -284,7 +261,7 @@
 
     </section>
 
-    <!-- Bottom Telegram Button -->
+    <!-- Bottom Telegram button -->
     <a
       class="bottom-button"
       href="https://t.me/+BwbB0EAjmYc1Mzlh"
@@ -295,11 +272,8 @@
       Join the Channel
     </a>
 
-    <p class="redirect-note">
-      Learn. Practice. Stay Informed.
-    </p>
+    <p class="redirect-note">Learn. Practice. Stay Informed.</p>
 
-    <!-- Financial Risk Disclaimer -->
     <p class="disclaimer">
       Educational content only. This page does not promise profits
       or trading results. Trading and investing involve risk,
